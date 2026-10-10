@@ -13,7 +13,11 @@ html, body {
 
 body {
 	font-family: 'Helvetica', sans-serif;
-  	background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  	/*background: linear-gradient(135deg, #f3f5f0, #dce5d5);
+	background: linear-gradient(135deg, #f5f3f7, #ddd8e7);*/
+	background: linear-gradient(135deg, #f1f4f1, #d9e1dc);
+	/*background: linear-gradient(135deg, #f0f5f4, #d1e1df);*/
+
   	color: black;
   	text-align: center;
 }
@@ -127,7 +131,8 @@ p.one:hover {
 
 /* SECTIONS */
 section {
-	margin-bottom: 30px;
+	scroll-margin-top: 100px;
+	padding-bottom: 40px;
 }
 
 .row {
@@ -239,6 +244,8 @@ article .icon {
 .project-btn {
 	color: black;
 	border-color: purple;
+	fill-opacity: 50%;
+	background-color: lavender;
 }
 
 /* CONTACT */
