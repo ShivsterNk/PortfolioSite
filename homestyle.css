@@ -13,11 +13,7 @@ html, body {
 
 body {
 	font-family: 'Helvetica', sans-serif;
-  	/*background: linear-gradient(135deg, #f3f5f0, #dce5d5);
-	background: linear-gradient(135deg, #f5f3f7, #ddd8e7);*/
 	background: linear-gradient(135deg, #f1f4f1, #d9e1dc);
-	/*background: linear-gradient(135deg, #f0f5f4, #d1e1df);*/
-
   	color: black;
   	text-align: center;
 }
@@ -37,7 +33,7 @@ a, .btn {
 
 /* DESKTOP NAVIGATION */
 .navbar {
-	background-image: linear-gradient(to right, red, orange, blue);
+	background-image: linear-gradient(to right, darkred, darkorange, mediumblue);
 	padding-right: 25px;
 	padding-left: 25px;
 	margin-bottom: 20px;
@@ -66,7 +62,7 @@ a, .btn {
 	height: 3px;
 	margin: 5px 0;
 	transition: all 0.3s ease;
-	background-color: black;
+	background-color: white;
 }
 
 .logo {
@@ -81,7 +77,7 @@ li {
 }
 
 li a {
-	color: black;
+	color: lightgray;
 	text-decoration: none;
 	text-decoration-color: white;
 	font-size: clamp(0.75rem, 1.5vw, 1.25rem);
@@ -98,26 +94,25 @@ a:hover {
 
 /* TEXT SETTINGS */
 h1 {
-	font-size: clamp(2rem, 4vw, 3.5rem);
+	font-size: clamp(2rem, 4vw, 3rem);
 }
 
 h2 {
 	text-align: center;
-	font-size: clamp(1.5rem, 3vw, 2.5rem);
+	font-size: clamp(1.5rem, 4vw, 2.25rem);
 	color: #333;
 	transition: font-size 0.3s ease;
-	font-family: 'Helvetica', sans-serif;
 	margin-bottom: 10px;
 }
 
 h3 {
-	font-size: clamp(1rem, 2.5vw, 1.5rem);
+	font-size: clamp(0.75rem, 4vw, 1.5rem);
 }
 
 p.one {
-	border: 2.5px solid darkred;
+	border: 2.5px solid darkcyan;
 	border-radius: 5px;
-	font-size: clamp(1.5rem, 2vw, 2.5rem);
+	font-size: clamp(1rem, 2vw, 2rem);
 	font-weight: bold;
 	padding: 10px;
 	margin: 10px;
@@ -125,8 +120,8 @@ p.one {
 }
 
 p.one:hover {
-	border-color:darkorange;
-	box-shadow: 0 0 20px rgba(238, 118, 19, 0.874);
+	border-color:darkcyan;
+	box-shadow: 0 0 20px rgba(18, 134, 113, 0.874);
 }
 
 /* SECTIONS */
@@ -149,7 +144,7 @@ section {
 /*ABOUT PIC */
 .about-pic {
 	width: 50%;
-	border: 2px solid darkblue;
+	border: 2px solid darkcyan;
 	border-radius: 15px;
 	display: block;
 	margin-left: auto;
@@ -159,8 +154,8 @@ section {
 
 .about-pic:hover {
 	transform: scale(1.05);
-	border-color:midnightblue;
-	box-shadow: 0 0 20px rgba(0, 0, 175, 0.6);
+	border-color:darkcyan;
+	box-shadow: 0 0 20px rgba(1, 140, 122, 0.6);
 }
 
 /* PROFILE SECTION */
@@ -192,7 +187,7 @@ section {
 	font-weight: 600;
 	transition: all 300ms ease;
 	padding: 1rem;
-	width: 8rem;
+	width: auto;
 	border-radius: 2rem;
 }
 .btn-color-1, .btn-color-2 {
@@ -243,9 +238,15 @@ article .icon {
 /* PROJECTS */
 .project-btn {
 	color: black;
-	border-color: purple;
+	border-color: cadetblue;
 	fill-opacity: 50%;
-	background-color: lavender;
+	background-color: darkgray;
+}
+
+.project-btn:hover {
+	background-color: darkslategrey;
+	border-color: darkgray;
+	color: whitesmoke;
 }
 
 /* CONTACT */
@@ -287,14 +288,25 @@ article .icon {
 	height: 2.5rem;
 }
 
+.video-container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.demo-video {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 /*FOOTER SECTION */
 footer {
-	background-image: linear-gradient(to right, red, orange, blue);
+	background-image: linear-gradient(to right, darkred, darkorange, mediumblue);
 	text-align: center;
 	font-size: 1rem;
 	margin-top: 20px;
 	padding: 10px;
-	background-color: #0073e6;
 	color: white;
 }
 
@@ -308,7 +320,7 @@ footer {
 }
 
 .footerNav ul li a {
-	color: black;
+	color: color;
 	margin: 10px;
 	padding-top: 10px;
 	font-size: 1.25em;
@@ -322,7 +334,7 @@ footer {
 }
 
 .footerBottom{
-	background-color: linear-gradient(to right, red, orange, blue);
+	background-color: linear-gradient(to right, darkred, darkorange, mediumblue);
 	text-align: left;
 }
 
@@ -376,7 +388,7 @@ footer {
 		padding: 20px 0;
 		margin: 0;
 
-		background-image: linear-gradient(to right, red, orange, blue);
+		background-image: linear-gradient(to right, darkred, darkorange, mediumblue);
 
 		list-style: none;
 		text-align: center;
